@@ -34,6 +34,8 @@ console.log('email', email)
 // console.log('friend', friend) not accessed becaouse have blocked scope
 // console.log('dob', dob)  not accessed becaouse have blocked scope
 
+console.table([email, myDog, myName])
+
 
 
 /*
@@ -48,3 +50,5 @@ let have allowed to reassigment
 
 
 */
+
+
