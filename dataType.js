@@ -24,7 +24,39 @@ null => standalone value
 
 object
 
+
+primitive (call by value) vs non-primitive (call by reference)
+
+primitive -> number, string, boolean, undefined, null, symbol
+non-primitive -> object, array, function
+
+javaScript is dynamically typed
+
+
+Stack Vs Heap 
+
+Stack - All primitive values are stored in stack
+Heap - All non-primitive values are stored in heap
+
 */
+
+let mySalary = 100
+
+let myFriend = mySalary
+
+mySalary = 200
+
+console.log('mySalary', mySalary);
+console.log('myFriend', myFriend);
+
+const userOne = {name : 'sumit', age : 18}
+const userTwo = userOne
+
+userOne.age = 19
+
+console.log('userOne', userOne);
+console.log('userTwo', userTwo);
+
 
 
 
